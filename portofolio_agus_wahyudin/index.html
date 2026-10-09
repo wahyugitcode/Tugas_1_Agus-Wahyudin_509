@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio personal Agus Wahyudin, mahasiswa Teknik Informatika.">
+    <title>Agus Wahyudin | Portofolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navigasi utama">
+            <a class="brand" href="#beranda" aria-label="Agus Wahyudin, beranda">Portofolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#keterampilan">Keterampilan</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="beranda" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">PORTOFOLIO PERSONAL</p>
+                <h1 id="hero-title">Halo, saya <span>Agus Wahyudin.</span></h1>
+                <p class="hero-subtitle">Mahasiswa Teknik Informatika</p>
+                <p class="intro">
+                    Saya tertarik mempelajari teknologi, pengembangan perangkat lunak,
+                    dan pembuatan solusi digital yang bermanfaat. Saya senang belajar
+                    hal baru dan mengembangkan kemampuan melalui proyek.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#proyek">Lihat Proyek</a>
+                    <a class="button button-outline" href="#kontak">Hubungi Saya</a>
+                </div>
+            </div>
+
+            <div class="profile-frame">
+                <!-- Ganti images/foto-profil.jpg dengan foto pribadi Anda. -->
+                <img src="images/foto.jpeg" alt="Foto profil Agus Wahyudin"
+                     class="profile-photo"
+                     onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+                <div class="photo-placeholder" hidden aria-label="Tempat foto profil">
+                    <span>AW</span>
+                    <p>Tempat Foto Profil</p>
+                    <small>Tambahkan foto di folder images</small>
+                </div>
+                <span class="profile-caption">Mahasiswa · Pembelajar</span>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="tentang" aria-labelledby="tentang-title">
+            <div class="container narrow">
+                <p class="eyebrow">PERKENALAN</p>
+                <h2 id="tentang-title">Tentang Saya</h2>
+                <p class="section-lead">
+                    Saya adalah mahasiswa yang sedang membangun fondasi di bidang
+                    informatika. Saya ingin terus meningkatkan kemampuan berpikir
+                    logis, pemecahan masalah, kerja sama tim, dan komunikasi.
+                </p>
+                <p>
+                    Melalui perkuliahan dan latihan mandiri, saya mempelajari dasar
+                    pemrograman, struktur data, basis data, serta pengembangan web.
+                    Saya terbuka terhadap pengalaman dan tantangan baru yang dapat
+                    membantu saya berkembang.
+                </p>
+            </div>
+        </section>
+
+        <section class="section container" id="pendidikan" aria-labelledby="pendidikan-title">
+            <p class="eyebrow">LATAR BELAKANG</p>
+            <h2 id="pendidikan-title">Pendidikan</h2>
+            <article class="timeline-card">
+                <div class="timeline-marker" aria-hidden="true"></div>
+                <div>
+                    <p class="card-meta">Pendidikan Tinggi · Sedang ditempuh</p>
+                    <h3>Program Studi Teknik Informatika</h3>
+                    <p class="muted">Universitas Muhammadiyah Malang (UMM)</p>
+                    <p>
+                        Mempelajari dasar ilmu komputer, pemrograman, basis data,
+                        algoritma, dan pengembangan aplikasi.
+                    </p>
+                    <p class="note">Universitas Muhammadiyah Malang, Teknik Informatika, 2024</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="section section-muted" id="keterampilan" aria-labelledby="keterampilan-title">
+            <div class="container">
+                <p class="eyebrow">KEMAMPUAN</p>
+                <h2 id="keterampilan-title">Keterampilan</h2>
+                <p class="section-lead">Berikut beberapa kemampuan yang sedang saya pelajari dan kembangkan.</p>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>HTML &amp; CSS</h3>
+                        <p>Menyusun struktur halaman web dan mengatur tampilan yang rapi serta responsif.</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>Pemrograman Java</h3>
+                        <p>Memahami dasar pemrograman, class, method, dan konsep pemrograman berorientasi objek.</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>Basis Data</h3>
+                        <p>Mempelajari perancangan data, relasi antartabel, dan penggunaan SQL dasar.</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Soft Skills</h3>
+                        <p>Kerja sama, komunikasi, adaptasi, dan kemauan untuk terus belajar.</p>
+                    </article>
+                </div>
+                <p class="note">Ubah daftar keterampilan ini agar sesuai dengan kemampuan yang benar-benar Anda kuasai.</p>
+            </div>
+        </section>
+
+        <section class="section container" id="proyek" aria-labelledby="proyek-title">
+            <p class="eyebrow">HASIL BELAJAR</p>
+            <h2 id="proyek-title">Proyek Pilihan</h2>
+            <p class="section-lead">Contoh proyek akademik yang dapat Anda sesuaikan dengan hasil pekerjaan sendiri.</p>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-top"><span>01</span><span class="project-type">Java · OOP</span></div>
+                    <h3>Aplikasi Biaya Pengiriman Barang</h3>
+                    <p>Aplikasi untuk menghitung estimasi biaya pengiriman berdasarkan berat, jarak, dan jenis layanan.</p>
+                    <ul class="tag-list" aria-label="Teknologi yang digunakan">
+                        <li>Java</li><li>OOP</li><li>JavaFX</li>
+                    </ul>
+                </article>
+                <article class="project-card">
+                    <div class="project-top"><span>02</span><span class="project-type">Web · Front-end</span></div>
+                    <h3>Portofolio Personal</h3>
+                    <p>Halaman resume digital yang menyajikan profil, pendidikan, keterampilan, proyek, dan kontak.</p>
+                    <ul class="tag-list" aria-label="Teknologi yang digunakan">
+                        <li>HTML5</li><li>CSS3</li><li>Responsive</li>
+                    </ul>
+                </article>
+                <article class="project-card">
+                    <div class="project-top"><span>03</span><span class="project-type">Basis Data</span></div>
+                    <h3>Perancangan Basis Data</h3>
+                    <p>Latihan merancang entitas, atribut, relasi, dan struktur tabel untuk kebutuhan sebuah sistem.</p>
+                    <ul class="tag-list" aria-label="Teknologi yang digunakan">
+                        <li>ERD</li><li>SQL</li><li>Database</li>
+                    </ul>
+                </article>
+            </div>
+            <p class="note">Pastikan deskripsi proyek mencerminkan proyek yang benar-benar pernah Anda kerjakan.</p>
+        </section>
+
+        <section class="section contact-section" id="kontak" aria-labelledby="kontak-title">
+            <div class="container contact-inner">
+                <div>
+                    <p class="eyebrow">TERHUBUNG</p>
+                    <h2 id="kontak-title">Mari Berkenalan</h2>
+                    <p class="section-lead">
+                        Punya pertanyaan atau ingin berdiskusi tentang proyek? Silakan hubungi saya melalui kontak di bawah.
+                    </p>
+                </div>
+                <address class="contact-list">
+                    <p><span>Email</span><a href="mailto:emailanda@example.com">wahyu49204@webmail.umm.ac.id</a></p>
+                    <p><span>Instagram</span><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">@agwhyuuu</a></p>
+                    <p><span>Lokasi</span><span>Indonesia</span></p>
+                </address>
+                <p class="note contact-note"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="tahun">2026</span> Agus Wahyudin</p>
+            <a href="#beranda">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
